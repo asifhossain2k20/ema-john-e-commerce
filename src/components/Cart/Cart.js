@@ -2,13 +2,13 @@ import React, { useReducer } from 'react';
 
 const Cart = (props) => {
     const {cart}=props;
-
-    const totalReducer=(previous,product)=>previous+product.price;
-    const total=cart.reduce(totalReducer,0)
-   /* let sum=0;
+  
+  /*  const totalReducer=(previous,product)=>previous+product.price;
+    const total=cart.reduce(totalReducer,0)*/
+   let total=0;
     for(const product of cart){
-        sum+=product.price;
-    }*/
+        total+=product.price;
+    }
 
     const shiping=15;
     const tax=(total+shiping)*.10;
