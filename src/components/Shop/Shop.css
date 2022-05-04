@@ -7,3 +7,12 @@
     margin-right: 5px;
     margin-left: 15px;
 }
+.serach-container{
+    background-color: rgba(0, 0, 0, 0.834);
+    text-align: center;
+    line-height: 40px;
+}
+.serach-container input{
+    width: 500px;
+    height: 20px;
+}
